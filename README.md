@@ -1,13 +1,13 @@
 # AT-07-pycharm-practice
 20.11.2021
 
-Время выполнения filter.py и old_filter.py различаются из-за времени потраченного на ввод данных
+Время выполнения filter.py и old_filter.py различаются из-за времени потраченного на ввод данных.
 
 ![filter_tests](https://user-images.githubusercontent.com/83445935/143659798-c7380712-fc3d-46d5-b59c-633974b9f39b.png)
 
 ![old_filter_tests](https://user-images.githubusercontent.com/83445935/143659812-370b1ee8-0372-42e6-b170-0f88920c3c9e.png)
 
-Время выполнения filter.py и filter_with_filename.py различаются из-за того, что мы не тратим время на ввод данных и отличается от old_filter.py из-за замены циклов
+Время выполнения filter.py и filter_with_filename.py различаются из-за того, что мы не тратим время на ввод данных и отличается от old_filter.py из-за замены циклов.
 
 ![old_filter_tests](https://user-images.githubusercontent.com/83445935/143659877-724226d5-526f-4247-8c09-04d09be3a427.png)
 
