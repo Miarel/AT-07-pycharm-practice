@@ -16,3 +16,9 @@
 
 # Результат
 ![res](https://user-images.githubusercontent.com/83445935/143659988-185d2fab-b8ca-48b6-887b-9b8a4739d8f7.jpg)
+
+# Результат запуска с doc-тестами
+![passed_tests](https://user-images.githubusercontent.com/83445935/143668933-c18bf8d3-8b04-4f42-aebc-818799dbcb7c.png)
+
+# Свойства изображения
+![debugging](https://user-images.githubusercontent.com/83445935/143668944-8e3de1e1-a3bc-4c4b-b824-362106fe15f2.png)
