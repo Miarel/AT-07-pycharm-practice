@@ -19,6 +19,11 @@ def get_average_color(pixels: [],
     :param mosaic_resolution: размер мозайки в формате n*n
     :return: возвращает среднюю яркость
 
+    >>> pixels = np.array(Image.open('img_for_tests.jpg'))
+    >>> height = 1
+    >>> width = 1
+    >>> get_average_color(pixels, height, width, 15)
+    25
     """
     average_color = int((pixels[height:height + mosaic_resolution,
                          width:width + mosaic_resolution]).sum() // 3)
@@ -42,6 +47,10 @@ def repainting(pixels: [],
     :param average_color: средняя яркость
     :return: меняет цвет пикселя
 
+    >>> pixels = np.array(Image.open('img_for_tests.jpg'))
+    >>> height = 1
+    >>> width = 1
+    >>> repainting(pixels, height, width, 15, 50, 25)
     """
     pixels[height:height + mosaic_resolution,
     width:width + mosaic_resolution] = \
@@ -57,6 +66,12 @@ def get_mosaic_image(img: Image,
     :param mosaic_resolution: размер мозайки в формате n*n
     :param gradations: градации серого
     :return: возвращает результат в виде изображения
+
+    >>> img = Image.open("img_for_tests.jpg")
+    >>> get_mosaic_image(img, 15, 50).size
+    (750, 750)
+    >>> get_mosaic_image(img, 15, 50).mode
+    'RGB'
     """
     pixels = np.array(img)
     height = len(pixels)
